@@ -83,7 +83,7 @@ export default function Modal({
         >
           <div className="flex items-center gap-2">
             <label className="flex grow">Add Book Name:</label>
-            <div className="flex flex-col">
+            <div className="flex flex-col  w-7/12">
               <input
                 required
                 defaultValue={
@@ -102,7 +102,7 @@ export default function Modal({
           </div>
           <div className="flex items-center gap-2">
             <label className="flex grow">Add Book ID:</label>
-            <div className="flex flex-col">
+            <div className="flex flex-col  w-7/12">
               <input
                 required
                 defaultValue={selector.length !== 0 ? mdata.book_uniq_idx : ""}
@@ -163,7 +163,7 @@ export default function Modal({
           </div>
           <div className="flex items-center gap-2">
             <label className="flex grow">Add Prize:</label>
-            <div className="flex flex-col">
+            <div className="flex flex-col  w-7/12">
               <input
                 required
                 defaultValue={selector.length !== 0 ? mdata.prize : ""}
@@ -175,7 +175,7 @@ export default function Modal({
           </div>
           <div className="flex items-center gap-2">
             <label className="flex grow">Add Cover Photo:</label>
-            <div className="flex flex-col w-7/12">
+            <div className="flex flex-col w-7/12  w-7/12">
               <input
                 className="border-2 rounded-md py-1 px-1 relative"
                 placeholder="img"
