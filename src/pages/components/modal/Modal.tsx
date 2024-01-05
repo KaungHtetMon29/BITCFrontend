@@ -175,7 +175,7 @@ export default function Modal({
           </div>
           <div className="flex items-center gap-2">
             <label className="flex grow">Add Cover Photo:</label>
-            <div className="flex flex-col w-7/12  w-7/12">
+            <div className="flex flex-col  w-7/12">
               <input
                 className="border-2 rounded-md py-1 px-1 relative"
                 placeholder="img"
