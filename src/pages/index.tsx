@@ -1,5 +1,4 @@
 import Image from "next/image";
-import { Inter } from "next/font/google";
 import Btn from "./components/button/Btn";
 import Modal from "./components/modal/Modal";
 import DataTable from "./components/table/Datatable";
@@ -8,8 +7,6 @@ import { useEffect, useState } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import { deletebook, fetchbook } from "@/redux/book";
 import { fetchcontentowner, fetchpublisher } from "@/redux/modal";
-
-const inter = Inter({ subsets: ["latin"] });
 
 export default function Home({ data }: { data: bookdata[] }) {
   const dispatch = useDispatch();
