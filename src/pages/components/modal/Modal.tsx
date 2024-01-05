@@ -122,6 +122,7 @@ export default function Modal({
               >
                 {cowners.map((e: any) => (
                   <option
+                    key={e.name}
                     value={e.name}
                     selected={
                       selector.length !== 0
@@ -145,6 +146,7 @@ export default function Modal({
               >
                 {publishers.map((e: any) => (
                   <option
+                    key={e.name}
                     value={e.name}
                     selected={
                       selector.length !== 0

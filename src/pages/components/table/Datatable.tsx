@@ -37,7 +37,7 @@ export default function DataTable({
       </thead>
       <tbody className="divide-y h-fit">
         {data.map((e: bookdata) => (
-          <tr className="h-16">
+          <tr className="h-16" key={e.idx}>
             <td className="text-start pl-8">{e.idx}</td>
             <td className=" text-start">{e.bookname}</td>
             <td className=" text-start">{e.content_owner.name}</td>
